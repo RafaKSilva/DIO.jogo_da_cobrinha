@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html {
+    background-color: #e5e5f7;
+    opacity: 1.0;
+    background-image: radial-gradient(#07a555 2px, #e5e5f7 2px);
+    background-size: 40px 40px;
+}
+
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+canvas {
+    border: 2px solid;
+}
